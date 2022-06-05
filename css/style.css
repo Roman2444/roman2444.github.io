@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #121212;
+
+    background: url("img/bg.png");
+  }
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.page {
+    width: 1000px;
+    margin: 20px auto;
+
+    background-color: #fff;
+    }
+
+.container {
+    display: flex;
+}
+
+
+.header {
+    padding: 20px;
+
+    background-color: #121212;
+    border-radius: 10px;
+    opacity: 0.9;
+
+    transition: opacity 0.2s linear;
+}
+
+.header:hover {
+    opacity: 1;
+}
+
+.header-title {
+    margin: 0;
+
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-subtitle {
+    margin: 0;
+
+    font-size: 16px;
+    color: #777cf5;
+    text-align: center;
+    font-weight: 400
+}
+
+/* Nav*/
+
+.nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.nav-link {
+    padding: 8px 12px;
+
+    color: #121212;
+    text-decoration: none;
+    transition: background-color 0.2s linear;
+    }
+
+.nav-link:hover {
+    background-color: #d5d1d1;
+}
+
+/*Content*/
+
+.intro-img {
+    border-radius: 10px;
+    box-shadow: 5px 3px 5px #887b7b;
+    background-color: #222;
+    opacity: 0.8;
+
+    transition: opacity 0.2s linear;
+}
+
+.intro-img:hover {
+    opacity: 1;
+}
+
+
+.content {
+    width: 800px;
+    padding: 0 20px;
+}
+.content-title {
+    margin:0 0 15px;
+
+    font-size: 24px;
+    color: #d84343
+}
+.content-text {
+    margin-bottom: 20px;
+}
+
+.read-more {
+    color: #150ec3;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+    }
+
+/*Article*/
+
+.article {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.article-title {
+    margin: 0 0 5px;
+
+    font-size: 18px;
+    color: #0d448e;
+    }
+.article-title a {
+/*    наследовать цвет у родителя*/
+    color: inherit;
+    text-decoration: none;
+    }
+
+.article-title a:hover {
+    text-decoration: underline;
+}
+
+.article-data {
+    display: block;
+    font-size: 12px;
+    color: #a4a4a4;
+    }
+
+/* Sidebar*/
+
+.sidebar {
+    width: 200px;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.sidebar-title {
+    font-size: 16px;
+    color: #c91919;
+    margin-bottom: 20px;
+}
+
+.sidebar-img {
+    background: linear-gradient(to top, #fff, #eee);
+}
+
+.sidebar-text {
+    font-size: 12px;
+}
+
+
+/*footer*/
+
+.footer {
+    padding: 20px;
+
+    background-color: #121212;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
